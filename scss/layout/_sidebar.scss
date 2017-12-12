@@ -1,0 +1,68 @@
+.o-sidebar{
+  position: fixed;
+  left: -250px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  z-index: 9999;
+}
+.t-sidebar{
+  background-color: #ffffff;
+  border: solid 1px #cccccc;
+}
+
+
+.o-list-of-problems-category{
+  margin: 25px 0 25px 26px;
+  display: flex;
+  align-items: center;
+}
+.t-list-of-problems{
+  border-bottom: 1px solid #e7e7ec;
+}
+
+.t-list-of-problems-category-text{
+  font-family: Roboto , sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #cccccc;
+  margin-left: 14px;
+}
+
+.o-sidebar__logo-and-burger{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 19.9px;
+}
+.t-sidebar__logo-and-burger{
+  border-bottom: 1px solid #e7e7ec;
+}
+.o-stages{
+  margin-left: 24px;
+}
+.t-stages{
+  border-bottom: 1px solid #e7e7ec;
+}
+.o-filter-input input{
+  margin-right: 12px;
+}
+.t-filter-input{
+  font-family: Roboto , sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.86);
+}
+.o-more-info{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-left: 24px;
+}
+.o-more-info a{
+  margin: 12px 0;
+  cursor: pointer;
+}

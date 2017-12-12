@@ -1,0 +1,38 @@
+.o-add-project04-with-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 106px;
+  width: 100%;
+}
+
+.o-add-project04 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  width: 100%;
+}
+.o-small-map{
+  margin-top: 45px;
+
+  width: 100%;
+  height: 430px;
+  background-repeat: no-repeat;
+}
+.o-small-map img{
+  width: 100%;
+  height: 100%;
+}
+.o-add-project04> .o-people-joined-input{
+  max-width: 620px !important;
+  margin-top: 40px !important;
+  margin-bottom: 55px !important;
+}
+.o-add-project04-with-btn > .o-number-of-page {
+  display: flex;
+  justify-content: flex-start !important;
+}
+.o-add-project04-with-btn > .o-number-of-page > img:nth-child(2){
+  width: auto !important;
+}

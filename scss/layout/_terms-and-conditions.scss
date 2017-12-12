@@ -1,0 +1,38 @@
+.o-terms-and-conditions{
+  position: absolute;
+  z-index: 9999;
+  margin: auto;
+  top: 330px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 840px;
+  min-height: 726px;
+  display: none;
+}
+.c-terms-and-conditions{
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.13), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.o-terms-and-conditions img{
+  position: absolute;
+  top: 59px;
+  left: 84px;
+}
+
+.o-terms-and-conditions p {
+  margin-left: 110px;
+}
+.o-terms-and-conditions h5 {
+  margin-left: 110px;
+  margin-bottom: 5px;
+}
+.o-terms-and-conditions h4 {
+  margin: 42px 0;
+}
+.o-terms-and-conditions > h5:first-child{
+  margin-top: 0;
+}

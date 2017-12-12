@@ -1,0 +1,28 @@
+.o-map-preview-alert{
+  position: absolute;
+  z-index: 9999;
+  margin: auto;
+  top: 330px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 432px;
+  width: 100%;
+  max-height: 262px;
+}
+.c-map-preview-alert{
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.13), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.o-map-preview-alert > img{
+  margin: 42px 0;
+}
+.o-map-preview-alert > .o-two-btn-without-background {
+  margin-top: 14px;
+  margin-bottom: 23px;
+}

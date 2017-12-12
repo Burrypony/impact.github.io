@@ -1,0 +1,27 @@
+.o-small-photo-in-description--hover img{
+  width: 32px !important;
+  height: auto !important;
+}
+.o-small-photo-in-description--big img{
+  height: 100%;
+  width: 100%;
+}
+.o-add-project03 > .o-people-joined-input{
+  max-width: 620px !important;
+  margin-top: 0 !important;
+}
+.o-add-project03-with-btn{
+    margin-top: 106px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.o-add-project03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+.o-add-project03-with-btn> .o-number-of-page> img:nth-child(2){
+  width: auto !important;
+}

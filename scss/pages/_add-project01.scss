@@ -1,0 +1,227 @@
+.o-add-project01-with-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 106px;
+}
+
+.o-add-project01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  max-width: 620px;
+  width: 100%;
+}
+
+.o-people-joined-input {
+  min-width: 620px;
+  width: 100%;
+  min-height: 32px;
+  margin-top: 167px;
+  margin-bottom: 100px;
+}
+
+.t-people-joined-input {
+  border-bottom: 1px solid #e7e7ec;
+}
+
+.t-people-joined-input:focus {
+  border-bottom: 2px solid #448aff;
+}
+.o-add-project01 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 620px;
+  width: 100%;
+}
+
+.o-white-and-blue-btn {
+  display: flex;
+}
+
+.o-white-and-blue-btn div {
+  position: relative;
+}
+
+.o-white-and-blue-btn div img {
+  position: absolute;
+  right: 18px;
+  top: 13px;
+}
+
+
+.o-first-white-btn {
+  margin-right: 24px;
+}
+
+.o-add-project02-with-btn > .o-number-of-page{
+  align-items: center;
+}
+
+
+.o-number-of-page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+.o-add-project01-with-btn > .o-number-of-page{
+  justify-content: flex-end;
+}
+
+.o-add-project01 > form > .o-people-joined-input {
+  margin-bottom: 64px;
+  max-width: 620px;
+  min-width: 292px;
+  width: 100%;
+}
+.t-circle{
+  width: 54px;
+  height: 54px;
+  background-color: #448aff;
+  box-shadow: 1px 2px 10px 0 rgba(68, 138, 255, 0.5);
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+}
+.o-circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.o-nav{
+  position: relative;
+  list-style: none;
+  height: 52px;
+  width: 328px;
+  overflow-y: hidden;
+  -moz-transition:width .2s ease-in-out, height .2s ease-in-out .2s;
+  -webkit-transition:width .2s ease-in-out, height .2s ease-in-out .2s;
+  -o-transition:width .2s ease-in-out, height .2s ease-in-out .2s;
+  transition:width .2s ease-in-out, height .2s ease-in-out .2s;
+}
+.o-main-menu{
+  height: 48px;
+  width: 328px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+
+}
+.o-nav li:first-child{
+  margin-top: 15px;
+  height: 48px;
+  width: 328px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+}
+.o-nav:hover{
+  height:208px;
+}
+.o-main-menu:hover{
+  border-radius: 2px;
+  background-color: #f7f7f9;
+}
+.t-main-menu > span {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  letter-spacing: -0px;
+  text-align: left;
+  color: #4d4d4e;
+  margin-left: 14px;
+
+}
+.o-nav li:first-child::after{
+  content:'';
+  display:block;
+  position:absolute;
+  height:5px;
+  right:0px;
+  top:25px;
+  width:10px;
+  background:url("../add-project01/images/shape.svg") no-repeat center;
+}
+.o-nav::before{
+  content: 'Select category';
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: 14px;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: -0px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.2);
+}
+li{
+  position: relative;
+}
+.t-number-of-page{
+  font-family: Roboto,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  color: #448aff;
+  display: none;
+}
+@media screen and (max-width:768px) {
+ .t-number-of-page{
+    display: block;
+ }
+  .o-number-of-page{
+   justify-content: center;
+ }
+ .o-circle{
+   display: none;
+ }
+ .t-border-dashed-grey{
+   display: none;
+ }
+ .t-title{
+   font-size: 5vmax !important;
+ }
+ .o-nav{
+   max-width: 292px;
+   width: 100%;
+ }
+ .o-nav li{
+   max-width: 328px;
+   min-width: 292px;
+   width: 100%;
+ }
+ .o-nav li{
+   max-width: 328px;
+   min-width: 292px;
+   width: 100%;
+ }
+ .o-nav li:first-child{
+   max-width: 328px;
+   min-width: 292px;
+   width: 100%;
+ }
+ .o-add-project01 > form > .o-people-joined-input{
+   max-width: 92vw !important;
+   margin-top: 20vw;
+   margin-bottom: 13vw !important;
+ }
+ .o-add-project01-with-btn{
+   margin-top: 19vw;
+ }
+ .o-add-project01{
+   margin-top: 4vw;
+ }
+ .o-add-project01-with-btn >.o-white-and-blue-btn{
+   margin-top: 62vw;
+ }
+}
+@media screen and (max-width: 480px) {
+  .t-title{
+    font-size: 6vmin !important;
+  }
+}

@@ -1,0 +1,45 @@
+@import "layout/header";
+@import "layout/project-preview-block--default";
+@import "layout/project-preview-block--selected";
+@import "pages/add-project01";
+@import "pages/add-project02";
+@import "pages/add-project03";
+@import "pages/add-project04";
+@import "pages/add-project05";
+@import "pages/edit-project";
+@import "pages/about";
+@import "pages/app-implementation";
+@import "layout/sidebar";
+@import "basic/basic";
+@import "themes/fonts";
+@import "layout/sign-in";
+@import "layout/forgot-password";
+@import "layout/new-password";
+@import "layout/register-as";
+@import "layout/register-user";
+@import "layout/register-ngo";
+@import "layout/register-company";
+@import "layout/terms-and-conditions";
+@import "components/input";
+@import "helpers/indents";
+@import "helpers/borders";
+@import "helpers/display";
+@import "components/button";
+@import "components/lable";
+@import "alerts/thank-you";
+@import "alerts/thank-you-company-ngo";
+@import "alerts/restore-password-alert";
+@import "alerts/leaving-page-alert";
+@import "map-preview-project/map-preview-details";
+
+
+// DELET WHEN U FIND MAP
+.o-map{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+.pac-container{
+  z-index: 9999 !important;
+}

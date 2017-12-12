@@ -1,0 +1,17 @@
+.t-error-label{
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: #ff5722;
+}
+.o-error-label{
+  width: 100%;
+  margin-top: -10px;
+}
+
+@media screen and(max-width: 768px) {
+  .o-error-label{
+    max-width: 290px;
+
+  }
+}

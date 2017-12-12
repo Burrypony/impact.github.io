@@ -1,0 +1,61 @@
+.t-first-white-btn{
+  width: 120px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.t-first-white-btn:hover{
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.t-first-white-btn:focus{
+  border-radius: 4px;
+  background-color: #f7f7f9;
+}
+
+.t-second-blue-btn{
+  width: 160px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #448aff;
+  box-shadow: 0 2px 10px 0 rgba(68, 138, 255, 0.5);
+}
+.t-second-blue-btn:hover{
+  border-radius: 4px;
+  background-color: #448aff;
+  box-shadow: 0 4px 12px 0 rgba(68, 138, 255, 0.5);
+}
+.t-second-blue-btn:focus{
+  border-radius: 4px;
+  background-color: #448aff;
+}
+.t-buttons{
+  background: transparent;
+}
+.o-big-blue-btn{
+  max-width: 380px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.t-big-blue-btn{
+  border-radius: 4px;
+  background-color: #448aff;
+  box-shadow: 0 2px 10px 0 rgba(68, 138, 255, 0.5);
+}
+.o-normal-white-btn{
+  max-width: 112px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.t-normal-white-btn{
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}

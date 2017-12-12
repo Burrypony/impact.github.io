@@ -1,0 +1,66 @@
+.t-input-color-white-grey input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.t-input-color-white-grey input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+/* Firefox 19+ */
+.t-input-color-white-grey input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+/* Firefox 18- */
+.t-input-color-white-grey input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.t-input-color-white-grey input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.t-input-color-white-grey input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+.t-input-color-white-grey input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+.t-input-color-white-grey input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.t-input-color-cccccc input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+.t-input-color-cccccc input::-moz-placeholder {
+  color: #cccccc;
+}
+/* Firefox 19+ */
+.t-input-color-cccccc input:-moz-placeholder {
+  color: #cccccc;
+}
+/* Firefox 18- */
+.t-input-color-cccccc input:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+.t-input-color-cccccc input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.t-input-color-cccccc input:focus::-moz-placeholder {
+  color: transparent;
+}
+/* Firefox 19+ */
+.t-input-color-cccccc input:focus:-moz-placeholder {
+  color: transparent;
+}
+/* Firefox 18- */
+.t-input-color-cccccc input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.t-input-error{
+  border-bottom: 2px solid #ff5722
+}

@@ -1,0 +1,84 @@
+.o-add-project02-with-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 106px;
+}
+.o-input-for-add-implementation:focus{
+  border-bottom: 2px solid #448aff;
+}
+.o-input-for-add-implementation{
+  border-bottom: 2px solid #e7e7ec;
+}
+form div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.o-add-project02-with-btn> .o-number-of-page> img:nth-child(2){
+  width: auto !important;
+}
+.o-add-project02>form>.o-people-joined-input{
+  margin-bottom: 50px;
+}
+.o-textarea{
+  min-height: 32px;
+  min-width: 620px;
+  overflow-y: auto;
+  resize: none;
+}
+.t-textarea{
+  border: none;
+  border-bottom: solid 1px #e7e7ec;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: left;
+  color: #cccccc;
+}
+.t-textarea:focus{
+  color: rgba(0, 0, 0, 0.86);
+  border-bottom: solid 1px #448aff;
+}
+.o-textarea-before{
+  position: relative;
+}
+.o-textarea-before::before{
+  content:'Problem description';
+  display:block;
+  position:absolute;
+  height:15px;
+  left: 0px;
+  top: -10px;
+  width:110px;
+  z-index: 2;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.86);
+}
+// .o-textarea-before--second::before{
+//   content:'Possible solution (optional)';
+//   display:block;
+//   position:absolute;
+//   height:15px;
+//   left: 0px;
+//   top: -10px;
+//   width:150px;
+//   z-index: 2;
+//   font-family: Roboto, sans-serif;
+//   font-size: 12px;
+//   font-weight: 500;
+//   text-align: left;
+//   color: rgba(0, 0, 0, 0.86);
+// }
+.o-textarea-before--second{
+  position: relative;
+  margin-top: 64px;
+}
+@media screen and (max-width: 768px) {
+  .t-border-solid-blue{
+    display: none;
+  }
+}
